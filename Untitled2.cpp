@@ -25,10 +25,10 @@ int main(){
 	int wyn,wyn1,w2;
 	double w;
 	
-	wyn = potega_liczby(4,6);
+	wyn = potega_liczby(2,3);
 	wyn1 = potega_liczby(2,3);
 	w2 = potega_liczby(33,2);
-//	printf(" %d \n", wyn);
+	//printf(" %d \n", wyn);
 //	printf(" %d \n", wyn1);
 //	printf(" %d \n", w2);
 	
