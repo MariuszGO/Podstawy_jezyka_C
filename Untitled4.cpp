@@ -6,12 +6,24 @@ int objetosc(int a, int b, int c)
 	if(a <= 0 || b <=0 || c <=0 ){
 		printf("Podane boki nie tworz¹ prostopad³oscianu");
 		return 0;
-	} else{
-	
-	
+	} else{	
 	w = a * b *c;
 	return w;
 	}
+}
+
+void fib(int a, int b){
+		printf("[%d] [%d] ",a,b);
+		
+		
+		long long int i, c, d, t[100];
+		t[0]=a;
+		t[1]=b;
+		
+		for( i = 2; i < 100; i++){
+					t[i]=t[i-1]+t[i-2]; 	
+			printf(" [%d]",t[i]);
+		}
 }
 
 
@@ -30,5 +42,7 @@ int main(){
 	
 	printf("Objetosc %d \n", wy);
 	printf("Objetosc %d \n", wy2);
+	
+	fib(0,1);
 }
 
