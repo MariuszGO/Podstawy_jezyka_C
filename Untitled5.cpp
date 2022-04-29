@@ -6,6 +6,15 @@ double paliwo (double cena, double odleglosc, double spalanie)
         lacznie = odleglosc * (cena * spalanie)/100;
         return lacznie;
     }
+    
+void ile_spali(double odleglosc, double spalanie){
+	double x;
+	x = (spalanie * odleglosc) / 100;
+	printf("\n Samochod na dysansie %lf spalil %lf", odleglosc, x);
+	
+}    
+
+    
 int main()
 {
    
@@ -18,5 +27,6 @@ int main()
     scanf("%lf",&c);
     w = paliwo(a, b, c);
     printf("%lf zl",w);
+    ile_spali(a,c);
     return 0;
 }

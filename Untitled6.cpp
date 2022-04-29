@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+
+
 void fib(int a, int b){
 		printf("[%d] [%d] ",a,b);
 		
@@ -17,6 +19,6 @@ void fib(int a, int b){
 
 int main(){
 	
-	fib(4,9);
+	fib(0,1);
 }
 
